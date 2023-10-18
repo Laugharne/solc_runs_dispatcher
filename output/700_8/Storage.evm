@@ -1,0 +1,489 @@
+    /* "FunctionDispatcher_8.sol":62:791  contract Storage {... */
+  mstore(0x40, 0x80)
+  callvalue
+  dup1
+  iszero
+  tag_1
+  jumpi
+  0x00
+  dup1
+  revert
+tag_1:
+  pop
+  dataSize(sub_0)
+  dup1
+  dataOffset(sub_0)
+  0x00
+  codecopy
+  0x00
+  return
+stop
+
+sub_0: assembly {
+        /* "FunctionDispatcher_8.sol":62:791  contract Storage {... */
+      mstore(0x40, 0x80)
+      callvalue
+      dup1
+      iszero
+      tag_1
+      jumpi
+      0x00
+      dup1
+      revert
+    tag_1:
+      pop
+      jumpi(tag_2, lt(calldatasize, 0x04))
+      shr(0xe0, calldataload(0x00))
+      dup1
+      0x2d223dd4
+      gt
+      tag_11
+      jumpi
+      dup1
+      0x2d223dd4
+      eq
+      tag_7
+      jumpi
+      dup1
+      0x556e4dc5
+      eq
+      tag_8
+      jumpi
+      dup1
+      0x58bab57d
+      eq
+      tag_9
+      jumpi
+      dup1
+      0xef1f1973
+      eq
+      tag_10
+      jumpi
+      jump(tag_2)
+    tag_11:
+      dup1
+      0x16f7ae7a
+      eq
+      tag_3
+      jumpi
+      dup1
+      0x1b953d86
+      eq
+      tag_4
+      jumpi
+      dup1
+      0x209bacc1
+      eq
+      tag_5
+      jumpi
+      dup1
+      0x27f151f5
+      eq
+      tag_6
+      jumpi
+    tag_2:
+      0x00
+      dup1
+      revert
+        /* "FunctionDispatcher_8.sol":263:326  function store1(uint256 value) public {... */
+    tag_3:
+      tag_12
+      0x04
+      dup1
+      calldatasize
+      sub
+      dup2
+      add
+      swap1
+      tag_13
+      swap2
+      swap1
+      tag_14
+      jump	// in
+    tag_13:
+      tag_15
+      jump	// in
+    tag_12:
+      stop
+        /* "FunctionDispatcher_8.sol":461:524  function store4(uint256 value) public {... */
+    tag_4:
+      tag_16
+      0x04
+      dup1
+      calldatasize
+      sub
+      dup2
+      add
+      swap1
+      tag_17
+      swap2
+      swap1
+      tag_14
+      jump	// in
+    tag_17:
+      tag_18
+      jump	// in
+    tag_16:
+      stop
+        /* "FunctionDispatcher_8.sol":593:656  function store6(uint256 value) public {... */
+    tag_5:
+      tag_19
+      0x04
+      dup1
+      calldatasize
+      sub
+      dup2
+      add
+      swap1
+      tag_20
+      swap2
+      swap1
+      tag_14
+      jump	// in
+    tag_20:
+      tag_21
+      jump	// in
+    tag_19:
+      stop
+        /* "FunctionDispatcher_8.sol":329:392  function store2(uint256 value) public {... */
+    tag_6:
+      tag_22
+      0x04
+      dup1
+      calldatasize
+      sub
+      dup2
+      add
+      swap1
+      tag_23
+      swap2
+      swap1
+      tag_14
+      jump	// in
+    tag_23:
+      tag_24
+      jump	// in
+    tag_22:
+      stop
+        /* "FunctionDispatcher_8.sol":527:590  function store5(uint256 value) public {... */
+    tag_7:
+      tag_25
+      0x04
+      dup1
+      calldatasize
+      sub
+      dup2
+      add
+      swap1
+      tag_26
+      swap2
+      swap1
+      tag_14
+      jump	// in
+    tag_26:
+      tag_27
+      jump	// in
+    tag_25:
+      stop
+        /* "FunctionDispatcher_8.sol":659:722  function store7(uint256 value) public {... */
+    tag_8:
+      tag_28
+      0x04
+      dup1
+      calldatasize
+      sub
+      dup2
+      add
+      swap1
+      tag_29
+      swap2
+      swap1
+      tag_14
+      jump	// in
+    tag_29:
+      tag_30
+      jump	// in
+    tag_28:
+      stop
+        /* "FunctionDispatcher_8.sol":725:788  function store8(uint256 value) public {... */
+    tag_9:
+      tag_31
+      0x04
+      dup1
+      calldatasize
+      sub
+      dup2
+      add
+      swap1
+      tag_32
+      swap2
+      swap1
+      tag_14
+      jump	// in
+    tag_32:
+      tag_33
+      jump	// in
+    tag_31:
+      stop
+        /* "FunctionDispatcher_8.sol":395:458  function store3(uint256 value) public {... */
+    tag_10:
+      tag_34
+      0x04
+      dup1
+      calldatasize
+      sub
+      dup2
+      add
+      swap1
+      tag_35
+      swap2
+      swap1
+      tag_14
+      jump	// in
+    tag_35:
+      tag_36
+      jump	// in
+    tag_34:
+      stop
+        /* "FunctionDispatcher_8.sol":263:326  function store1(uint256 value) public {... */
+    tag_15:
+        /* "FunctionDispatcher_8.sol":317:322  value */
+      dup1
+        /* "FunctionDispatcher_8.sol":305:314  variable1 */
+      0x00
+        /* "FunctionDispatcher_8.sol":305:322  variable1 = value */
+      dup2
+      swap1
+      sstore
+      pop
+        /* "FunctionDispatcher_8.sol":263:326  function store1(uint256 value) public {... */
+      pop
+      jump	// out
+        /* "FunctionDispatcher_8.sol":461:524  function store4(uint256 value) public {... */
+    tag_18:
+        /* "FunctionDispatcher_8.sol":515:520  value */
+      dup1
+        /* "FunctionDispatcher_8.sol":503:512  variable4 */
+      0x03
+        /* "FunctionDispatcher_8.sol":503:520  variable4 = value */
+      dup2
+      swap1
+      sstore
+      pop
+        /* "FunctionDispatcher_8.sol":461:524  function store4(uint256 value) public {... */
+      pop
+      jump	// out
+        /* "FunctionDispatcher_8.sol":593:656  function store6(uint256 value) public {... */
+    tag_21:
+        /* "FunctionDispatcher_8.sol":647:652  value */
+      dup1
+        /* "FunctionDispatcher_8.sol":635:644  variable6 */
+      0x05
+        /* "FunctionDispatcher_8.sol":635:652  variable6 = value */
+      dup2
+      swap1
+      sstore
+      pop
+        /* "FunctionDispatcher_8.sol":593:656  function store6(uint256 value) public {... */
+      pop
+      jump	// out
+        /* "FunctionDispatcher_8.sol":329:392  function store2(uint256 value) public {... */
+    tag_24:
+        /* "FunctionDispatcher_8.sol":383:388  value */
+      dup1
+        /* "FunctionDispatcher_8.sol":371:380  variable2 */
+      0x01
+        /* "FunctionDispatcher_8.sol":371:388  variable2 = value */
+      dup2
+      swap1
+      sstore
+      pop
+        /* "FunctionDispatcher_8.sol":329:392  function store2(uint256 value) public {... */
+      pop
+      jump	// out
+        /* "FunctionDispatcher_8.sol":527:590  function store5(uint256 value) public {... */
+    tag_27:
+        /* "FunctionDispatcher_8.sol":581:586  value */
+      dup1
+        /* "FunctionDispatcher_8.sol":569:578  variable5 */
+      0x04
+        /* "FunctionDispatcher_8.sol":569:586  variable5 = value */
+      dup2
+      swap1
+      sstore
+      pop
+        /* "FunctionDispatcher_8.sol":527:590  function store5(uint256 value) public {... */
+      pop
+      jump	// out
+        /* "FunctionDispatcher_8.sol":659:722  function store7(uint256 value) public {... */
+    tag_30:
+        /* "FunctionDispatcher_8.sol":713:718  value */
+      dup1
+        /* "FunctionDispatcher_8.sol":701:710  variable7 */
+      0x06
+        /* "FunctionDispatcher_8.sol":701:718  variable7 = value */
+      dup2
+      swap1
+      sstore
+      pop
+        /* "FunctionDispatcher_8.sol":659:722  function store7(uint256 value) public {... */
+      pop
+      jump	// out
+        /* "FunctionDispatcher_8.sol":725:788  function store8(uint256 value) public {... */
+    tag_33:
+        /* "FunctionDispatcher_8.sol":779:784  value */
+      dup1
+        /* "FunctionDispatcher_8.sol":767:776  variable8 */
+      0x07
+        /* "FunctionDispatcher_8.sol":767:784  variable8 = value */
+      dup2
+      swap1
+      sstore
+      pop
+        /* "FunctionDispatcher_8.sol":725:788  function store8(uint256 value) public {... */
+      pop
+      jump	// out
+        /* "FunctionDispatcher_8.sol":395:458  function store3(uint256 value) public {... */
+    tag_36:
+        /* "FunctionDispatcher_8.sol":449:454  value */
+      dup1
+        /* "FunctionDispatcher_8.sol":437:446  variable3 */
+      0x02
+        /* "FunctionDispatcher_8.sol":437:454  variable3 = value */
+      dup2
+      swap1
+      sstore
+      pop
+        /* "FunctionDispatcher_8.sol":395:458  function store3(uint256 value) public {... */
+      pop
+      jump	// out
+        /* "#utility.yul":88:205   */
+    tag_46:
+        /* "#utility.yul":197:198   */
+      0x00
+        /* "#utility.yul":194:195   */
+      dup1
+        /* "#utility.yul":187:199   */
+      revert
+        /* "#utility.yul":334:411   */
+    tag_48:
+        /* "#utility.yul":371:378   */
+      0x00
+        /* "#utility.yul":400:405   */
+      dup2
+        /* "#utility.yul":389:405   */
+      swap1
+      pop
+        /* "#utility.yul":334:411   */
+      swap2
+      swap1
+      pop
+      jump	// out
+        /* "#utility.yul":417:539   */
+    tag_49:
+        /* "#utility.yul":490:514   */
+      tag_57
+        /* "#utility.yul":508:513   */
+      dup2
+        /* "#utility.yul":490:514   */
+      tag_48
+      jump	// in
+    tag_57:
+        /* "#utility.yul":483:488   */
+      dup2
+        /* "#utility.yul":480:515   */
+      eq
+        /* "#utility.yul":470:533   */
+      tag_58
+      jumpi
+        /* "#utility.yul":529:530   */
+      0x00
+        /* "#utility.yul":526:527   */
+      dup1
+        /* "#utility.yul":519:531   */
+      revert
+        /* "#utility.yul":470:533   */
+    tag_58:
+        /* "#utility.yul":417:539   */
+      pop
+      jump	// out
+        /* "#utility.yul":545:684   */
+    tag_50:
+        /* "#utility.yul":591:596   */
+      0x00
+        /* "#utility.yul":629:635   */
+      dup2
+        /* "#utility.yul":616:636   */
+      calldataload
+        /* "#utility.yul":607:636   */
+      swap1
+      pop
+        /* "#utility.yul":645:678   */
+      tag_60
+        /* "#utility.yul":672:677   */
+      dup2
+        /* "#utility.yul":645:678   */
+      tag_49
+      jump	// in
+    tag_60:
+        /* "#utility.yul":545:684   */
+      swap3
+      swap2
+      pop
+      pop
+      jump	// out
+        /* "#utility.yul":690:1019   */
+    tag_14:
+        /* "#utility.yul":749:755   */
+      0x00
+        /* "#utility.yul":798:800   */
+      0x20
+        /* "#utility.yul":786:795   */
+      dup3
+        /* "#utility.yul":777:784   */
+      dup5
+        /* "#utility.yul":773:796   */
+      sub
+        /* "#utility.yul":769:801   */
+      slt
+        /* "#utility.yul":766:885   */
+      iszero
+      tag_62
+      jumpi
+        /* "#utility.yul":804:883   */
+      tag_63
+      tag_46
+      jump	// in
+    tag_63:
+        /* "#utility.yul":766:885   */
+    tag_62:
+        /* "#utility.yul":924:925   */
+      0x00
+        /* "#utility.yul":949:1002   */
+      tag_64
+        /* "#utility.yul":994:1001   */
+      dup5
+        /* "#utility.yul":985:991   */
+      dup3
+        /* "#utility.yul":974:983   */
+      dup6
+        /* "#utility.yul":970:992   */
+      add
+        /* "#utility.yul":949:1002   */
+      tag_50
+      jump	// in
+    tag_64:
+        /* "#utility.yul":939:1002   */
+      swap2
+      pop
+        /* "#utility.yul":895:1012   */
+      pop
+        /* "#utility.yul":690:1019   */
+      swap3
+      swap2
+      pop
+      pop
+      jump	// out
+
+    auxdata: 0xa2646970667358221220acc0d4c7cf50cc46217e383a40c783157d11efb788eafb5364e5f09d43110e1f64736f6c63430008140033
+}

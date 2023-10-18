@@ -1,0 +1,200 @@
+ 1844  cargo --help build
+ 1845  cargo build --help
+ 1846  cargo build --release --help
+ 1847  git add .
+ 1848  git commit -m "minor fix"
+ 1849  git add .
+ 1850  git commit -m "minor fix"
+ 1851  git push -u origin main
+ 1852  cd workspace/projects/pro/select0r/
+ 1853  time cargo run "aaaa(uint)" 2 8 true
+ 1854  time cargo run "aaaa(uint)" 2 8 false
+ 1855  time cargo run "aaaa(uint)" 2 12 false
+ 1856  time cargo run "aaaa(uint)" 3 12 false
+ 1857  ll
+ 1858  rm *.tsv
+ 1859  time cargo run "aaaa(uint)" 2 8 false
+ 1860  ll
+ 1861  rm *.tsv
+ 1862  git add .
+ 1863  git commit -m "minor fix (2)"
+ 1864  tig
+ 1865  git push -u origin main
+ 1866  time cargo run "aaaa(uint)" 2 8 false
+ 1867  htop
+ 1868  btop
+ 1869  php speeddial.php 
+ 1870  cd workspace/projects/pro/select0r/
+ 1871  ll
+ 1872  time cargo run s "aaaa(uint)"  z 1  d true  t 3
+ 1873  time cargo run s "aaaa(uint)"  z 1  d true  t 3 r 3
+ 1874  time cargo run s "aaaa(uint)"  z 1  d true  t 3
+ 1875  time cargo run s "aaaa(uint)"  z 1  d true  t 20
+ 1876  time cargo run s "aaaa(uint)"  z 1  d true  t 3 r 3
+ 1877  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3
+ 1878  banner TOTO
+ 1879  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3
+ 1880  git status 
+ 1881  rm *.tsv
+ 1882  git status 
+ 1883  git add .
+ 1884  git commit -m "enhance cli parameters management"
+ 1885  git push -u origin main
+ 1886  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3
+ 1887  git add .
+ 1888  git commit -m "enhance cli parameters management"
+ 1889  git push -u origin main
+ 1890  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3
+ 1891  git add .
+ 1892  git commit -m "enhance cli parameters management"
+ 1893  git push -u origin main
+ 1894  git add .
+ 1895  cd workspace/projects/pro/select0r/
+ 1896  ll
+ 1897  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o csv
+ 1898  ll
+ 1899  batcat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.CSV 
+ 1900  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o csv
+ 1901  batcat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.CSV 
+ 1902  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o json
+ 1903  ll
+ 1904  batcat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.JSON 
+ 1905  git add .
+ 1906  git commit -m "Add export format as TSV, CSV or JSON"
+ 1907  git push -u origin main
+ 1908  git add .
+ 1909  git commit -m "Add export format as TSV, CSV or JSON"
+ 1910  cd workspace/projects/pro/select0r/
+ 1911  ll
+ 1912  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o xml
+ 1913  ll
+ 1914  batcat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.XML 
+ 1915  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o xml
+ 1916  batcat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.XML 
+ 1917  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o xml
+ 1918  batcat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.XML 
+ 1919  cat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.XML 
+ 1920  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o xml
+ 1921  cat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.XML 
+ 1922  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o xml
+ 1923  cat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.XML 
+ 1924  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o xml
+ 1925  cat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.XML 
+ 1926  batcat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.XML 
+ 1927  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o xml
+ 1928  batcat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.XML 
+ 1929  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 3 o xml
+ 1930  batcat aaaa\(uint\)--zero\=2-max\=3-decr\=true-cpu\=3.XML 
+ 1931  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 4 o xml
+ 1932  time cargo run s "aaaa(uint)"  z 2  d true  t 3 r 5 o tsv
+ 1933  time cargo run s "aaaa(uint)"  z 2  d false  t 3 r 5 o tsv
+ 1934  time cargo run s "aaaa(uint)"  z 2  d false  t 3 r 6 o tsv
+ 1935  ll
+ 1936  rm aaa*
+ 1937  ll
+ 1938  time cargo run s "aaaa(uint)"  z 2  d false  t 3 r 6 o tsv
+ 1939  ll
+ 1940  batcat aaaa\(uint\)--zero\=2-max\=6-decr\=false-cpu\=3.TSV 
+ 1941  rm aaa*
+ 1942  time cargo run s "aaaa(uint)"  z 2  d false  t 3 r 10 o tsv
+ 1943  batcat aaaa\(uint\)--zero\=2-max\=6-decr\=false-cpu\=3.TSV 
+ 1944  ll
+ 1945  batcat aaaa\(uint\)--zero\=2-max\=10-decr\=false-cpu\=3.TSV 
+ 1946  time cargo run s "a()"  z 2  d false  t 3 r 10 o tsv
+ 1947  ll
+ 1948  batcat "a()--zero=2-max=10-decr=false-cpu=3.TSV" 
+ 1949  time cargo run s "a()"  z 2  d true  t 3 r 4 o tsv
+ 1950  time cargo run s "a()"  z 2  d true  t 3 r 5 o tsv
+ 1951  ll
+ 1952  rm *.TSV
+ 1953  time cargo run s "a()"  z 2  d true  t 3 r 5 o tsv
+ 1954  ll
+ 1955  batcat "a()--zero=2-max=5-decr=true-cpu=3.TSV" 
+ 1956  rm *.TSV
+ 1957  ll
+ 1958  time cargo run s "deposit(uint256)"  z 2  d true  t 3 r 5 o tsv
+ 1959  ll
+ 1960  batcat *.TSV
+ 1961  time cargo run s "deposit(uint256)"  z 2  d true  t 3 r 6 o tsv
+ 1962  batcat *.TSV
+ 1963  time cargo run s "deposit(uint256)"  z 2  d true  t 3 r 7 o tsv
+ 1964  batcat *.TSV
+ 1965  time cargo run s "deposit(uint256)"  z 2  d true  t 3 r 8 o tsv
+ 1966  batcat *.TSV
+ 1967  time cargo run s "deposit(uint256)"  z 2  d true  t 3 r 9 o tsv
+ 1968  batcat *.TSV
+ 1969  time cargo run s "deposit(uint256)"  z 2  d true  t 3 r 8 o tsv
+ 1970  ll
+ 1971  rm *.TSV
+ 1972  ll
+ 1973  git status 
+ 1974  git add .
+ 1975  git status 
+ 1976  git commit -m "Add XML export as output, refactoring some stuff..."
+ 1977  git push -u origin main
+ 1978  git status 
+ 1979  git add .
+ 1980  git commit -m "Add XML export as output, refactoring some stuff..."
+ 1981  cargo --help
+ 1982  cargo --list
+ 1983  ll
+ 1984  php speeddial.php 
+ 1985  cd workspace/projects/pro/select0r/
+ 1986  cargo --list
+ 1987  cargo tree
+ 1988  cargo watch --help
+ 1989  cargo --list
+ 1990  cargo miri --help
+ 1991  cargo modules --help
+ 1992  cargo modules
+ 1993  cargo-modules
+ 1994  cargo modules
+ 1995  cargo modules generate
+ 1996  cargo modules generate graph
+ 1997  ll
+ 1998  code .
+ 1999  ll
+ 2000  solc
+ 2001  cd workspace/
+ 2002  ll
+ 2003  cd sandbox/
+ 2004  ll
+ 2005  mkdir solc_runs_tests
+ 2006  ll
+ 2007  cd solc_runs_tests/
+ 2008  ne SimpleStorage.sol
+ 2009  ll
+ 2010  solc SimpleStorage.sol 
+ 2011  ll
+ 2012  solc --help
+ 2013  solc SimpleStorage.sol -o
+ 2014  solc SimpleStorage.sol -o .
+ 2015  ll
+ 2016  solc SimpleStorage.sol -o ./SimpleStoragell
+ 2017  ll
+ 2018  mkdir output
+ 2019* solc -o 
+ 2020  tree
+ 2021  ll output/
+ 2022  cd output/
+ 2023  ll
+ 2024  cd ..
+ 2025  solc --help
+ 2026  solc --bin -o /output SimpleStorage.sol 
+ 2027  solc --bin -o ./output SimpleStorage.sol 
+ 2028  tree
+ 2029  solc --asm -o ./output SimpleStorage.sol 
+ 2030  tree
+ 2031  batcat ./output/Storage.evm 
+ 2032  solc --opcodes -o ./output SimpleStorage.sol 
+ 2033  tree
+ 2034  batcat ./output/Storage.opcode 
+ 2035  batcat ./output/Storage.evm 
+ 2036  cat ./output/Storage.opcode 
+ 2037  cat ./output/Storage.evm 
+ 2038  head ./output/Storage.evm 
+ 2039  head ./output/Storage.evm 30
+ 2040  head -h
+ 2041  head --help
+ 2042  head ./output/Storage.evm -n 30
+ 2043  bcli
