@@ -14,7 +14,7 @@ for( $f=4; $f <= 15; $f++) {
 	for($run = 200; $run <= 1000; $run += 100) {
 		$output = "{$base_dir}/output/{$run}_{$f}";
 		$file_name = "{$output}/Storage.evm";
-		printf("%s\n", $file_name);
+		//printf("%s\n", $file_name);
 		$lines    = file($file_name);
 		$nn_lines = count( $lines);
 
@@ -47,15 +47,29 @@ for( $f=4; $f <= 15; $f++) {
 			if( strpos( $line, $tag_inner) === false) {continue;}
 			$line = trim($line);
 			if( substr( $line, -1) != ":") {continue;}
-			printf(">{$line}\n");
+			//printf(">{$line}\n");
 			$nn_split++;
 		}
 
-		printf("#function={$f}\trun={$run}\t{$nn_split}\n");
+		printf("#function={$f}\trun={$run} \t{$nn_split}\n");
 
+		@$data[$f][$run] = $nn_split+1;
 	}
 
 	
 }
+
+function convertToMarkdownTable($array) {
+	$markdown = '';
+	foreach ($array as $row) {
+		$markdown .= '| ' . implode(' | ', $row) . " |\n";
+	}
+	return $markdown;
+}
+
+$markdownTable = convertToMarkdownTable($data);
+
+// Afficher le tableau au format Markdown
+echo $markdownTable;
 
 ?>
