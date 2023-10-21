@@ -1,0 +1,244 @@
+.
+├── README.md
+├── solc_runs_tests_analyze.php
+├── solc_runs_tests_evm.php
+├── solc_runs_tests_files.php
+├── array.csv
+├── array.md
+├── array.png
+├── FunctionDispatcher_10.sol
+├── FunctionDispatcher_11.sol
+├── FunctionDispatcher_12.sol
+├── FunctionDispatcher_13.sol
+├── FunctionDispatcher_14.sol
+├── FunctionDispatcher_15.sol
+├── FunctionDispatcher_4.sol
+├── FunctionDispatcher_5.sol
+├── FunctionDispatcher_6.sol
+├── FunctionDispatcher_7.sol
+├── FunctionDispatcher_8.sol
+├── FunctionDispatcher_9.sol
+├── output
+│   ├── 1000_10
+│   │   └── Storage.evm
+│   ├── 1000_11
+│   │   └── Storage.evm
+│   ├── 1000_12
+│   │   └── Storage.evm
+│   ├── 1000_13
+│   │   └── Storage.evm
+│   ├── 1000_14
+│   │   └── Storage.evm
+│   ├── 1000_15
+│   │   └── Storage.evm
+│   ├── 1000_4
+│   │   └── Storage.evm
+│   ├── 1000_5
+│   │   └── Storage.evm
+│   ├── 1000_6
+│   │   └── Storage.evm
+│   ├── 1000_7
+│   │   └── Storage.evm
+│   ├── 1000_8
+│   │   └── Storage.evm
+│   ├── 1000_9
+│   │   └── Storage.evm
+│   ├── 200_10
+│   │   └── Storage.evm
+│   ├── 200_11
+│   │   └── Storage.evm
+│   ├── 200_12
+│   │   └── Storage.evm
+│   ├── 200_13
+│   │   └── Storage.evm
+│   ├── 200_14
+│   │   └── Storage.evm
+│   ├── 200_15
+│   │   └── Storage.evm
+│   ├── 200_4
+│   │   └── Storage.evm
+│   ├── 200_5
+│   │   └── Storage.evm
+│   ├── 200_6
+│   │   └── Storage.evm
+│   ├── 200_7
+│   │   └── Storage.evm
+│   ├── 200_8
+│   │   └── Storage.evm
+│   ├── 200_9
+│   │   └── Storage.evm
+│   ├── 300_10
+│   │   └── Storage.evm
+│   ├── 300_11
+│   │   └── Storage.evm
+│   ├── 300_12
+│   │   └── Storage.evm
+│   ├── 300_13
+│   │   └── Storage.evm
+│   ├── 300_14
+│   │   └── Storage.evm
+│   ├── 300_15
+│   │   └── Storage.evm
+│   ├── 300_4
+│   │   └── Storage.evm
+│   ├── 300_5
+│   │   └── Storage.evm
+│   ├── 300_6
+│   │   └── Storage.evm
+│   ├── 300_7
+│   │   └── Storage.evm
+│   ├── 300_8
+│   │   └── Storage.evm
+│   ├── 300_9
+│   │   └── Storage.evm
+│   ├── 400_10
+│   │   └── Storage.evm
+│   ├── 400_11
+│   │   └── Storage.evm
+│   ├── 400_12
+│   │   └── Storage.evm
+│   ├── 400_13
+│   │   └── Storage.evm
+│   ├── 400_14
+│   │   └── Storage.evm
+│   ├── 400_15
+│   │   └── Storage.evm
+│   ├── 400_4
+│   │   └── Storage.evm
+│   ├── 400_5
+│   │   └── Storage.evm
+│   ├── 400_6
+│   │   └── Storage.evm
+│   ├── 400_7
+│   │   └── Storage.evm
+│   ├── 400_8
+│   │   └── Storage.evm
+│   ├── 400_9
+│   │   └── Storage.evm
+│   ├── 500_10
+│   │   └── Storage.evm
+│   ├── 500_11
+│   │   └── Storage.evm
+│   ├── 500_12
+│   │   └── Storage.evm
+│   ├── 500_13
+│   │   └── Storage.evm
+│   ├── 500_14
+│   │   └── Storage.evm
+│   ├── 500_15
+│   │   └── Storage.evm
+│   ├── 500_4
+│   │   └── Storage.evm
+│   ├── 500_5
+│   │   └── Storage.evm
+│   ├── 500_6
+│   │   └── Storage.evm
+│   ├── 500_7
+│   │   └── Storage.evm
+│   ├── 500_8
+│   │   └── Storage.evm
+│   ├── 500_9
+│   │   └── Storage.evm
+│   ├── 600_10
+│   │   └── Storage.evm
+│   ├── 600_11
+│   │   └── Storage.evm
+│   ├── 600_12
+│   │   └── Storage.evm
+│   ├── 600_13
+│   │   └── Storage.evm
+│   ├── 600_14
+│   │   └── Storage.evm
+│   ├── 600_15
+│   │   └── Storage.evm
+│   ├── 600_4
+│   │   └── Storage.evm
+│   ├── 600_5
+│   │   └── Storage.evm
+│   ├── 600_6
+│   │   └── Storage.evm
+│   ├── 600_7
+│   │   └── Storage.evm
+│   ├── 600_8
+│   │   └── Storage.evm
+│   ├── 600_9
+│   │   └── Storage.evm
+│   ├── 700_10
+│   │   └── Storage.evm
+│   ├── 700_11
+│   │   └── Storage.evm
+│   ├── 700_12
+│   │   └── Storage.evm
+│   ├── 700_13
+│   │   └── Storage.evm
+│   ├── 700_14
+│   │   └── Storage.evm
+│   ├── 700_15
+│   │   └── Storage.evm
+│   ├── 700_4
+│   │   └── Storage.evm
+│   ├── 700_5
+│   │   └── Storage.evm
+│   ├── 700_6
+│   │   └── Storage.evm
+│   ├── 700_7
+│   │   └── Storage.evm
+│   ├── 700_8
+│   │   └── Storage.evm
+│   ├── 700_9
+│   │   └── Storage.evm
+│   ├── 800_10
+│   │   └── Storage.evm
+│   ├── 800_11
+│   │   └── Storage.evm
+│   ├── 800_12
+│   │   └── Storage.evm
+│   ├── 800_13
+│   │   └── Storage.evm
+│   ├── 800_14
+│   │   └── Storage.evm
+│   ├── 800_15
+│   │   └── Storage.evm
+│   ├── 800_4
+│   │   └── Storage.evm
+│   ├── 800_5
+│   │   └── Storage.evm
+│   ├── 800_6
+│   │   └── Storage.evm
+│   ├── 800_7
+│   │   └── Storage.evm
+│   ├── 800_8
+│   │   └── Storage.evm
+│   ├── 800_9
+│   │   └── Storage.evm
+│   ├── 900_10
+│   │   └── Storage.evm
+│   ├── 900_11
+│   │   └── Storage.evm
+│   ├── 900_12
+│   │   └── Storage.evm
+│   ├── 900_13
+│   │   └── Storage.evm
+│   ├── 900_14
+│   │   └── Storage.evm
+│   ├── 900_15
+│   │   └── Storage.evm
+│   ├── 900_4
+│   │   └── Storage.evm
+│   ├── 900_5
+│   │   └── Storage.evm
+│   ├── 900_6
+│   │   └── Storage.evm
+│   ├── 900_7
+│   │   └── Storage.evm
+│   ├── 900_8
+│   │   └── Storage.evm
+│   └── 900_9
+│       └── Storage.evm
+├── README.md
+├── solc_runs_tests_analyze.php
+├── solc_runs_tests_evm.php
+├── solc_runs_tests_files.php
+└── tree.txt
+
+109 directories, 128 files

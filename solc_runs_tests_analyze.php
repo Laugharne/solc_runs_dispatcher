@@ -67,9 +67,20 @@ function convertToMarkdownTable($array) {
 	return $markdown;
 }
 
-$markdownTable = convertToMarkdownTable($data);
+function convertToCsv($array) {
+	$output = fopen('php://output', 'w');
 
-// Afficher le tableau au format Markdown
+	foreach ($array as $row) {
+		fputcsv($output, $row);
+	}
+	fclose($output);
+}
+
+$markdownTable = convertToMarkdownTable($data);
 echo $markdownTable;
+
+convertToCsv($data);
+
+
 
 ?>
