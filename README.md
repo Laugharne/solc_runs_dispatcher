@@ -37,18 +37,19 @@ system($cmd);
 
 **Runs level**
 ```
---optimize-runs n (=200)
-    The number of runs specifies roughly how often each 
-    opcode of the deployed code will be executed across the 
-    lifetime of the contract. Lower values will optimize 
-    more for initial deployment cost, higher values will 
-    optimize more for high-frequency usage.
+Optimizer Options:
+  --optimize-runs n (=200)
+      The number of runs specifies roughly how often each 
+      opcode of the deployed code will be executed across the 
+      lifetime of the contract. Lower values will optimize 
+      more for initial deployment cost, higher values will 
+      optimize more for high-frequency usage.
 ```
 
 **Opcodes output**
 ```
 Output Components:
-    --opcodes    Opcodes of the contracts.
+    --asm    EVM assembly of the contracts.
 ```
 
 ## Results
