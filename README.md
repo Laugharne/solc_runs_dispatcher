@@ -7,7 +7,7 @@
 
 - [solc_runs_tests](#solc_runs_tests)
 	- [📖 Table of Contents](#-table-of-contents)
-	- [📍 Overview](#-overview)
+	- [🔭 Overview](#-overview)
 		- [compiler parameters](#compiler-parameters)
 	- [Results](#results)
 		- [🌲 Repository Tree](#-repository-tree)
@@ -16,7 +16,7 @@
 
 ----
 
-## 📍 Overview
+## 🔭 Overview
 
 This repository is a testbed to experiment with optimizing Solidity compiler (*`solc`*) by launching compilation on it. The goal here is to see the effects of the **number of public functions** in a solidity smart contract and the **level of optimization** of `solc` solidity compiler on the bytecodes of the "*function dispatcher*".
 
