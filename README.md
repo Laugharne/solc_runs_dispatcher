@@ -7,17 +7,11 @@
 
 - [solc_runs_tests](#solc_runs_tests)
 	- [📖 Table of Contents](#-table-of-contents)
-	- [🔭 Overview](#-overview)
-		- [compiler parameters](#compiler-parameters)
-	- [Results](#results)
-		- [🌲 Repository Tree](#-repository-tree)
+	- [✏️ compiler parameters](#-compiler-parameters)
+	- [📝 Results](#-results)
+	- [🌲 Repository Tree](#-repository-tree)
 
 <!-- /TOC -->
-
-----
-
-## 🔭 Overview
-
 This repository is a testbed to experiment with optimizing Solidity compiler (*`solc`*) by launching compilation on it. The goal here is to see the effects of the **number of public functions** in a solidity smart contract and the **level of optimization** of `solc` solidity compiler on the bytecodes of the "*function dispatcher*".
 
 **Three PHP scripts** are used !
@@ -35,7 +29,7 @@ system($cmd);
 **Note !**
 The solidity compiler `solc` is on version **0.8.20**.
 
-### compiler parameters
+## ✏️ compiler parameters
 
 **Runs level**
 ```
@@ -54,14 +48,14 @@ Output Components:
     --asm    EVM assembly of the contracts.
 ```
 
-## Results
+## 📝 Results
 
 ![](array.png)
 
 
 ----
 
-### 🌲 Repository Tree
+## 🌲 Repository Tree
 ```bash
 .
 ├── array.csv
