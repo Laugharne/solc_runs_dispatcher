@@ -27,7 +27,8 @@ system($cmd);
 3. `solc_runs_tests_analyze.php` : analyze opcodes of the differents outputs, and count `tags` label on "*function dispatcher*" sections, corresponding to the number of sequential linear selector tests. And output results as **CSV** and **Markdown** data array.
 
 **Note !**
-The solidity compiler `solc` is on version **0.8.20**.
+The solidity compiler `solc` version was set on **0.8.20**.
+
 
 ## ✏️ compiler parameters
 
@@ -42,11 +43,13 @@ Optimizer Options:
       optimize more for high-frequency usage.
 ```
 
+
 **Opcodes output**
 ```
 Output Components:
     --asm    EVM assembly of the contracts.
 ```
+
 
 ## 📝 Results
 
@@ -54,6 +57,7 @@ Output Components:
 
 
 ----
+
 
 ## 🌲 Repository Tree
 ```bash
