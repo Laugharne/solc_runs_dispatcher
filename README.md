@@ -7,24 +7,31 @@
 
 - [solc_runs_tests](#solc_runs_tests)
 	- [📖 Table of Contents](#-table-of-contents)
+	- [🔭 Overview](#-overview)
 	- [✏️ compiler parameters](#-compiler-parameters)
 	- [📝 Results](#-results)
 	- [🌲 Repository Tree](#-repository-tree)
 
 <!-- /TOC -->
+
+
+
+## 🔭 Overview
+
+
 This repository is a testbed to experiment with optimizing Solidity compiler (*`solc`*) by launching compilation on it. The goal here is to see the effects of the **number of public functions** in a solidity smart contract and the **level of optimization** of `solc` solidity compiler on the bytecodes of the "*function dispatcher*".
 
 **Three PHP scripts** are used !
 
-1. `solc_runs_tests_files.php` : to generate solidity source code with a variable number of public functions. See files `FunctionDispatcher_XX.sol` with `XX` in range `4 to 15` corresponding to the number of functions.
+1. `solc_runs_tests_files.php` : to **generate solidity source code** with a variable number of public functions. See files `FunctionDispatcher_XX.sol` with `XX` in range `4 to 15` corresponding to the number of functions.
 
-2. `solc_runs_tests_evm.php` : proceed to solidity compilation of scripts previously created, with a level of optimization from `200 to 1000`. The compilation output (*opcodes*) are write in dedicated folders (*see [repository tree](#-repository-tree)*) with names corresponding to runs level and number of functions.
+2. `solc_runs_tests_evm.php` : proceed to an **automatic solidity compilation** of scripts previously created, with a level of optimization from `200 to 1000`. The compilation output (*opcodes*) are write in dedicated folders (*see [repository tree](#-repository-tree)*) with names corresponding to runs level and number of functions.
 
 ```php
 $cmd = "solc --asm --overwrite --optimize-runs {$run} -o {$output} {$sol_file}";
 system($cmd);
 ```
-3. `solc_runs_tests_analyze.php` : analyze opcodes of the differents outputs, and count `tags` label on "*function dispatcher*" sections, corresponding to the number of sequential linear selector tests. And output results as **CSV** and **Markdown** data array.
+3. `solc_runs_tests_analyze.php` : proceed to a **static analyzis** of opcodes (from the differents file output) and count `tags` label on "*function dispatcher*" sections, corresponding to the number of sequential linear selector tests. And output results as **CSV** and **Markdown** data array.
 
 **Note !**
 The solidity compiler `solc` version was set on **0.8.20**.
